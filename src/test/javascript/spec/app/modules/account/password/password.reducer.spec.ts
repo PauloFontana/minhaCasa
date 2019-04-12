@@ -10,7 +10,7 @@ import password, { ACTION_TYPES, savePassword, reset } from 'app/modules/account
 
 describe('Password reducer tests', () => {
   beforeAll(() => {
-    TranslatorContext.registerTranslations('pt-br', {});
+    TranslatorContext.registerTranslations('en', {});
   });
 
   describe('Common tests', () => {

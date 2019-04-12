@@ -1,14 +1,14 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.mycompany.myapp",
-      "nativeLanguage": "pt-br"
+      "packageName": "org.minhacasa.myapp",
+      "nativeLanguage": "en"
     },
     "jhipsterVersion": "5.8.2",
     "applicationType": "monolith",
     "baseName": "minhaCasa",
-    "packageName": "com.mycompany.myapp",
-    "packageFolder": "com/mycompany/myapp",
+    "packageName": "org.minhacasa.myapp",
+    "packageFolder": "org/minhacasa/myapp",
     "serverPort": "8080",
     "authenticationType": "jwt",
     "cacheProvider": "ehcache",
@@ -16,23 +16,23 @@
     "websocket": false,
     "databaseType": "sql",
     "devDatabaseType": "h2Disk",
-    "prodDatabaseType": "mysql",
+    "prodDatabaseType": "postgresql",
     "searchEngine": false,
     "messageBroker": false,
-    "serviceDiscoveryType": "eureka",
+    "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "ZGVjNWY0MzZmZjNlZWMwNzI5ZGVkNTg0ZTYzMmJmZDFmYmZjMzRmODY2Y2IxYTcwNTUwMGE2NTExYTU2MDU0NmZiYmRiNDg4NzBkMDdlMDVjZTc2N2U2ZDk1YmJmMjU2MDQ3MjE2YTE1MTVjNmUzM2ZiYWUwNWIwZTMxMjZkMDc=",
+    "jwtSecretKey": "YmZlNDgyODBiYmI0MmQ2ODk1MjI0YzRmNWE2ZTI4NzkzNmVjOTFmMDk1ZmQzNTJmNmUxZDM5NzRjN2QxNDg0NTk2ZmRmMzlkMDI2NjA1OGM2ZTIwNzI1NzIzMDA4MjRjM2VlOGYwMzA3OWRlYTQyOGUxYjk1Zjk2MjlmNzMyYWY=",
     "clientFramework": "react",
     "useSass": false,
     "clientPackageManager": "npm",
-    "testFrameworks": [],
+    "testFrameworks": ["protractor"],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": true,
-    "nativeLanguage": "pt-br",
-    "languages": ["pt-br"]
+    "nativeLanguage": "en",
+    "languages": ["en", "pt-br"]
   }
 }

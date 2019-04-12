@@ -110,13 +110,13 @@ For more information, refer to the [Code quality page][].
 
 You can use Docker to improve your JHipster development experience. A number of docker-compose configuration are available in the [src/main/docker](src/main/docker) folder to launch required third party services.
 
-For example, to start a mysql database in a docker container, run:
+For example, to start a postgresql database in a docker container, run:
 
-    docker-compose -f src/main/docker/mysql.yml up -d
+    docker-compose -f src/main/docker/postgresql.yml up -d
 
 To stop it and remove the container, run:
 
-    docker-compose -f src/main/docker/mysql.yml down
+    docker-compose -f src/main/docker/postgresql.yml down
 
 You can also fully dockerize your application and all the services that it depends on.
 To achieve this, first build a docker image of your app by running:
@@ -136,7 +136,6 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [jhipster homepage and latest documentation]: https://www.jhipster.tech
 [jhipster 5.8.2 archive]: https://www.jhipster.tech/documentation-archive/v5.8.2
 [using jhipster in development]: https://www.jhipster.tech/documentation-archive/v5.8.2/development/
-[service discovery and configuration with the jhipster-registry]: https://www.jhipster.tech/documentation-archive/v5.8.2/microservices-architecture/#jhipster-registry
 [using docker and docker-compose]: https://www.jhipster.tech/documentation-archive/v5.8.2/docker-compose
 [using jhipster in production]: https://www.jhipster.tech/documentation-archive/v5.8.2/production/
 [running tests page]: https://www.jhipster.tech/documentation-archive/v5.8.2/running-tests/
