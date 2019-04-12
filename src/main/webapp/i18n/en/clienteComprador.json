@@ -1,0 +1,23 @@
+{
+  "minhaCasaApp": {
+    "clienteComprador": {
+      "home": {
+        "title": "Cliente Compradors",
+        "createLabel": "Create a new Cliente Comprador",
+        "createOrEditLabel": "Create or edit a Cliente Comprador"
+      },
+      "created": "A new Cliente Comprador is created with identifier {{ param }}",
+      "updated": "A Cliente Comprador is updated with identifier {{ param }}",
+      "deleted": "A Cliente Comprador is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cliente Comprador {{ id }}?"
+      },
+      "detail": {
+        "title": "Cliente Comprador"
+      },
+      "renda": "Renda",
+      "garantias": "Garantias",
+      "imovel": "Imovel"
+    }
+  }
+}

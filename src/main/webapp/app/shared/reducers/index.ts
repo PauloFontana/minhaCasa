@@ -12,6 +12,22 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import cliente, {
+  ClienteState
+} from 'app/entities/cliente/cliente.reducer';
+// prettier-ignore
+import clienteProprietario, {
+  ClienteProprietarioState
+} from 'app/entities/cliente-proprietario/cliente-proprietario.reducer';
+// prettier-ignore
+import clienteComprador, {
+  ClienteCompradorState
+} from 'app/entities/cliente-comprador/cliente-comprador.reducer';
+// prettier-ignore
+import imovel, {
+  ImovelState
+} from 'app/entities/imovel/imovel.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -25,6 +41,10 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
+  readonly cliente: ClienteState;
+  readonly clienteProprietario: ClienteProprietarioState;
+  readonly clienteComprador: ClienteCompradorState;
+  readonly imovel: ImovelState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -40,6 +60,10 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
+  cliente,
+  clienteProprietario,
+  clienteComprador,
+  imovel,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

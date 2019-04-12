@@ -1,0 +1,36 @@
+entity Cliente {
+	id Integer required,
+	nome String required,
+	cpf Integer required,
+	endereco String,
+	telefone Integer
+}
+
+entity ClienteProprietario{
+	contaCorrente String
+}
+
+entity ClienteComprador {
+	renda BigDecimal,
+	garantias String
+}
+
+entity Imovel {
+	id Integer required,
+	categoria String,
+	tipo String,
+	valor BigDecimal,
+	atributos String,
+}
+
+relationship OneToOne {
+	Cliente{clienteProprietario} to ClienteProprietario
+	Cliente{clienteComprador} to ClienteComprador
+}
+
+relationship OneToMany {
+	ClienteProprietario{imovel} to Imovel
+	ClienteComprador{imovel} to Imovel
+}
+
+

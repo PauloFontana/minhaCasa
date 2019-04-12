@@ -1,0 +1,22 @@
+{
+  "minhaCasaApp": {
+    "clienteProprietario": {
+      "home": {
+        "title": "Cliente Proprietarios",
+        "createLabel": "Criar novo Cliente Proprietario",
+        "createOrEditLabel": "Criar ou editar Cliente Proprietario"
+      },
+      "created": "Um novo Cliente Proprietario foi criado com o identificador {{ param }}",
+      "updated": "Um Cliente Proprietario foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Cliente Proprietario foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Cliente Proprietario {{ id }}?"
+      },
+      "detail": {
+        "title": "Cliente Proprietario"
+      },
+      "contaCorrente": "Conta Corrente",
+      "imovel": "Imovel"
+    }
+  }
+}

@@ -38,6 +38,12 @@ public class CacheConfiguration {
             cm.createCache(org.minhacasa.myapp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(org.minhacasa.myapp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(org.minhacasa.myapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.Cliente.class.getName(), jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.ClienteProprietario.class.getName(), jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.ClienteProprietario.class.getName() + ".imovels", jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.ClienteComprador.class.getName(), jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.ClienteComprador.class.getName() + ".imovels", jcacheConfiguration);
+            cm.createCache(org.minhacasa.myapp.domain.Imovel.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

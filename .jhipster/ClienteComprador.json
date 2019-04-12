@@ -1,0 +1,30 @@
+{
+    "name": "ClienteComprador",
+    "fields": [
+        {
+            "fieldName": "renda",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "garantias",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "imovel",
+            "otherEntityRelationshipName": "clienteComprador",
+            "relationshipName": "imovel"
+        }
+    ],
+    "changelogDate": "20190412061013",
+    "entityTableName": "cliente_comprador",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

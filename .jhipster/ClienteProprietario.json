@@ -1,0 +1,26 @@
+{
+    "name": "ClienteProprietario",
+    "fields": [
+        {
+            "fieldName": "contaCorrente",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "imovel",
+            "otherEntityRelationshipName": "clienteProprietario",
+            "relationshipName": "imovel"
+        }
+    ],
+    "changelogDate": "20190412061012",
+    "entityTableName": "cliente_proprietario",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
