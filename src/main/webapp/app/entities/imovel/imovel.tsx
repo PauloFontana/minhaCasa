@@ -24,7 +24,7 @@ export class Imovel extends React.Component<IImovelProps> {
     return (
       <div>
         <h2 id="imovel-heading">
-          <Translate contentKey="minhaCasaApp.imovel.home.title">Imovels</Translate>
+          <Translate contentKey="minhaCasaApp.imovel.home.title">Imoveis</Translate>
           <Link to={`${match.url}/new`} className="btn btn-primary float-right jh-create-entity" id="jh-create-entity">
             <FontAwesomeIcon icon="plus" />
             &nbsp;
