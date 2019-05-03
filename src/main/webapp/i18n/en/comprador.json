@@ -1,0 +1,23 @@
+{
+  "minhaCasaApp": {
+    "comprador": {
+      "home": {
+        "title": "Compradors",
+        "createLabel": "Create a new Comprador",
+        "createOrEditLabel": "Create or edit a Comprador"
+      },
+      "created": "A new Comprador is created with identifier {{ param }}",
+      "updated": "A Comprador is updated with identifier {{ param }}",
+      "deleted": "A Comprador is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Comprador {{ id }}?"
+      },
+      "detail": {
+        "title": "Comprador"
+      },
+      "renda": "Renda",
+      "garantias": "Garantias",
+      "user": "User"
+    }
+  }
+}

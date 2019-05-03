@@ -1,0 +1,34 @@
+{
+    "name": "Repasse",
+    "fields": [
+        {
+            "fieldName": "valor",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "proprietario",
+            "otherEntityRelationshipName": "repasse",
+            "relationshipName": "proprietario",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "corretor",
+            "otherEntityRelationshipName": "repasse",
+            "relationshipName": "corretor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190503090044",
+    "entityTableName": "repasse",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

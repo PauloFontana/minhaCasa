@@ -1,0 +1,48 @@
+{
+    "name": "Corretor",
+    "fields": [
+        {
+            "fieldName": "registroImobiliaria",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "password",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "numeroCreci",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "contaCorrente",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "imobiliaria",
+            "otherEntityRelationshipName": "corretor",
+            "relationshipName": "imobiliaria",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190503090048",
+    "entityTableName": "corretor",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

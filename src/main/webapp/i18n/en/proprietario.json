@@ -1,0 +1,22 @@
+{
+  "minhaCasaApp": {
+    "proprietario": {
+      "home": {
+        "title": "Proprietarios",
+        "createLabel": "Create a new Proprietario",
+        "createOrEditLabel": "Create or edit a Proprietario"
+      },
+      "created": "A new Proprietario is created with identifier {{ param }}",
+      "updated": "A Proprietario is updated with identifier {{ param }}",
+      "deleted": "A Proprietario is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Proprietario {{ id }}?"
+      },
+      "detail": {
+        "title": "Proprietario"
+      },
+      "contaCorrente": "Conta Corrente",
+      "user": "User"
+    }
+  }
+}

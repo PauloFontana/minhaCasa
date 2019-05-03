@@ -1,0 +1,25 @@
+{
+  "minhaCasaApp": {
+    "corretor": {
+      "home": {
+        "title": "Corretors",
+        "createLabel": "Create a new Corretor",
+        "createOrEditLabel": "Create or edit a Corretor"
+      },
+      "created": "A new Corretor is created with identifier {{ param }}",
+      "updated": "A Corretor is updated with identifier {{ param }}",
+      "deleted": "A Corretor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Corretor {{ id }}?"
+      },
+      "detail": {
+        "title": "Corretor"
+      },
+      "registroImobiliaria": "Registro Imobiliaria",
+      "password": "Password",
+      "numeroCreci": "Numero Creci",
+      "contaCorrente": "Conta Corrente",
+      "imobiliaria": "Imobiliaria"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "minhaCasaApp": {
+    "repasse": {
+      "home": {
+        "title": "Repasses",
+        "createLabel": "Create a new Repasse",
+        "createOrEditLabel": "Create or edit a Repasse"
+      },
+      "created": "A new Repasse is created with identifier {{ param }}",
+      "updated": "A Repasse is updated with identifier {{ param }}",
+      "deleted": "A Repasse is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Repasse {{ id }}?"
+      },
+      "detail": {
+        "title": "Repasse"
+      },
+      "valor": "Valor",
+      "proprietario": "Proprietario",
+      "corretor": "Corretor"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Visita",
+    "fields": [
+        {
+            "fieldName": "data",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "avaliacao",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "imovel",
+            "otherEntityRelationshipName": "visita",
+            "relationshipName": "imovel",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "corretor",
+            "otherEntityRelationshipName": "visita",
+            "relationshipName": "corretor",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190503090047",
+    "entityTableName": "visita",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,24 @@
+{
+  "minhaCasaApp": {
+    "visita": {
+      "home": {
+        "title": "Visitas",
+        "createLabel": "Create a new Visita",
+        "createOrEditLabel": "Create or edit a Visita"
+      },
+      "created": "A new Visita is created with identifier {{ param }}",
+      "updated": "A Visita is updated with identifier {{ param }}",
+      "deleted": "A Visita is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Visita {{ id }}?"
+      },
+      "detail": {
+        "title": "Visita"
+      },
+      "data": "Data",
+      "avaliacao": "Avaliacao",
+      "imovel": "Imovel",
+      "corretor": "Corretor"
+    }
+  }
+}

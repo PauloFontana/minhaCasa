@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Minuta.
+    -->
+    <changeSet id="20190503090045-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="imovel_id"
+                                 baseTableName="minuta"
+                                 constraintName="fk_minuta_imovel_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="imovel"/>
+
+        <addForeignKeyConstraint baseColumnNames="proprietario_id"
+                                 baseTableName="minuta"
+                                 constraintName="fk_minuta_proprietario_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="proprietario"/>
+
+        <addForeignKeyConstraint baseColumnNames="comprador_id"
+                                 baseTableName="minuta"
+                                 constraintName="fk_minuta_comprador_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="comprador"/>
+
+    </changeSet>
+</databaseChangeLog>
