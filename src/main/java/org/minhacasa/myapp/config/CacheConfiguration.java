@@ -38,16 +38,6 @@ public class CacheConfiguration {
             cm.createCache(org.minhacasa.myapp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(org.minhacasa.myapp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(org.minhacasa.myapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Proprietario.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Repasse.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Minuta.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Imovel.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Visita.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Corretor.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Comprador.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Pagamento.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Imobiliaria.class.getName(), jcacheConfiguration);
-            cm.createCache(org.minhacasa.myapp.domain.Imobiliaria.class.getName() + ".corretors", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
